@@ -1,0 +1,30 @@
+#root {
+  text-align: center;
+}
+.container{
+  display: flex;
+  flex-direction: column;
+  height:98vh;
+}
+
+.header-container {
+  height: 60px; 
+  flex-shrink: 0;
+}
+
+.main-content {
+  flex: 1;
+  display: flex;
+  height: calc(80vh - 60px);
+}
+
+.friend-list-container{
+  width: 32%;
+  border-right: 1px solid black;
+  overflow-y: auto;
+}
+
+.chat-box-container{
+  width: 68%;
+  overflow-y: auto;
+}
